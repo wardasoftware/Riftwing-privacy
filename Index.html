@@ -1,9 +1,13 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for RiftWing, a mobile arcade game published by WardaSoft.">
+    <meta name="theme-color" content="#0f172a">
     <title>Privacy Policy - RiftWing</title>
+
     <style>
         :root {
             --bg-color: #0f172a;
@@ -13,102 +17,158 @@
             --accent-color: #38bdf8;
             --border-color: #334155;
         }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-color);
-            line-height: 1.6;
+            line-height: 1.7;
             margin: 0;
             padding: 20px;
         }
+
         .container {
             max-width: 800px;
             margin: 40px auto;
             background-color: var(--card-bg);
             border: 1px solid var(--border-color);
             border-radius: 12px;
-            padding: 40px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
-        h1 {
+
+        h1, h2 {
             color: var(--accent-color);
-            font-size: 2.2em;
-            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-top: 0;
             border-bottom: 2px solid var(--border-color);
             padding-bottom: 15px;
         }
+
         h2 {
-            color: var(--accent-color);
-            font-size: 1.4em;
+            font-size: 1.3rem;
             margin-top: 30px;
-            margin-bottom: 15px;
         }
+
         p, li {
             color: var(--text-color);
-            margin-bottom: 15px;
         }
+
+        li {
+            margin-bottom: 10px;
+        }
+
         ul {
-            padding-left: 20px;
-            margin-bottom: 20px;
+            padding-left: 24px;
         }
+
         .last-updated {
             color: var(--text-muted);
-            font-size: 0.9em;
-            margin-bottom: 30px;
+            font-size: 0.9rem;
+            margin-bottom: 28px;
         }
+
         a {
             color: var(--accent-color);
-            text-decoration: none;
+            overflow-wrap: anywhere;
         }
-        a:hover {
-            text-decoration: underline;
-        }
+
         .footer {
             margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
             text-align: center;
             color: var(--text-muted);
-            font-size: 0.85em;
-            border-top: 1px solid var(--border-color);
-            padding-top: 20px;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            .container {
+                margin: 12px auto;
+                padding: 22px;
+            }
+
+            h1 {
+                font-size: 1.7rem;
+            }
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
+    <main class="container">
         <h1>Privacy Policy</h1>
-        <div class="last-updated">Effective Date: October 27, 2026</div>
 
-        <p>Welcome to <strong>RiftWing</strong>, developed and published by <strong>WardaSoft</strong> ("we", "our", or "us"). This Privacy Policy explains how information is collected, used, and disclosed when you play or use our mobile application <strong>RiftWing</strong>.</p>
+        <p class="last-updated">
+            Effective Date: October 27, 2026
+        </p>
 
-        <h2>1. Information We Collect</h2>
-        <p>We respect your privacy. RiftWing is designed with user privacy in mind:</p>
-        <ul>
-            <li><strong>Local Game Data:</strong> Game progress, high scores, audio settings, and preferences are stored locally on your device using local storage / SharedPreferences. We do not transmit or store your personal gameplay data on external servers.</li>
-            <li><strong>Advertising Data (Google AdMob):</strong> We use Google AdMob to serve advertisements in the game. AdMob may collect and use certain device identifiers, IP addresses, and usage data to display personalized or non-personalized ads in accordance with Google's privacy policies.</li>
-        </ul>
+        <p>
+            Welcome to <strong>RiftWing</strong>, a mobile arcade game
+            published by <strong>WardaSoft</strong> ("we", "our", or "us").
+            This Privacy Policy explains how information may be collected,
+            used, and shared when you use RiftWing.
+        </p>
+
+        <h2>1. Information and Game Data</h2>
+
+        <p>
+            RiftWing may process information in the following ways,
+            depending on how you use the game and the services enabled
+            in the app.
+        </p>
+
+        <p><strong>Game progress and preferences</strong></p>
+
+        <p>
+            Information such as game progress, scores, and game settings
+            may be stored on your device to support gameplay and remember
+            your preferences. This information may be lost if you clear
+            the app's data or uninstall the game, unless a supported
+            backup or synchronization feature is available and enabled.
+        </p>
+
+        <p>
+            We do not operate our own game account system or collect
+            personal information through a registration form unless
+            such a feature is introduced in a future version.
+        </p>
+
+        <p><strong>Advertising information</strong></p>
+
+        <p>
+            RiftWing uses Google AdMob to display advertisements.
+            Depending on your device settings, location, applicable
+            consent requirements, and the advertising configuration,
+            Google and its advertising partners may process information
+            such as device identifiers, IP address, advertising
+            interactions, app activity, diagnostics, and related
+            technical information to provide, measure, and improve
+            advertising services, prevent fraud, and meet legal
+            requirements.
+        </p>
+
+        <p>
+            The information processed by advertising services is subject
+            to the applicable Google policies and settings. We do not
+            control all information collected directly by Google or
+            its advertising partners.
+        </p>
 
         <h2>2. Third-Party Services</h2>
-        <p>RiftWing integrates third-party SDKs that may collect information used to identify you:</p>
-        <ul>
-            <li><strong>Google AdMob & Play Services:</strong> Used for serving banner and interstitial advertisements. You can learn more about how Google uses data at <a href="https://policies.google.com/technologies/partner-sites" target="_blank">Google's Privacy & Terms</a>.</li>
-        </ul>
 
-        <h2>3. Children's Privacy</h2>
-        <p>RiftWing is suitable for general audiences. We do not knowingly collect personally identifiable information from children under the age of 13. If you believe that a child has provided personal information through our app, please contact us so we can promptly remove such information.</p>
-
-        <h2>4. Data Security</h2>
-        <p>We take reasonable administrative, technical, and physical security measures to protect information. However, no electronic transmission or storage is 100% secure.</p>
-
-        <h2>5. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. You are advised to review this Privacy Policy periodically for any changes.</p>
-
-        <h2>6. Contact Us</h2>
-        <p>If you have any questions, comments, or concerns about this Privacy Policy or our privacy practices, please contact us at:</p>
-        <p><strong>WardaSoft</strong><br>Email: support@wardasoft.com</p>
-
-        <div class="footer">
-            &copy; 2026 WardaSoft. All rights reserved.
-        </div>
-    </div>
-</body>
-</html>
+        <p>
+            RiftWing uses Google AdMob to serve advertisements.
+            These services may process
